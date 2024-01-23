@@ -1,0 +1,13 @@
+body{
+    background-color: grey;
+}
+
+.card{
+    position: relative;
+}
+
+.client{
+    background-color: rgba(169, 169, 169, 0.4);
+    position: absolute;
+    bottom: 4px;
+}
