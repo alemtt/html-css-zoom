@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
-header{
+.site_header{
     position: fixed;
+    height: 20px;
+    width: 100%;
+    display: contents;
+    text-align: end;
 }
 
-body{
-    height: 100vh;
+.header_btn{
+    background-color: grey;
+    color: white;
+    border-radius: 0.5rem;
+    
 }
 
 .row {
@@ -20,6 +27,13 @@ body{
 
 .card {
     position: relative;
+}
+
+main{
+    height: 800px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 2rem;
 }
 
 .client {
@@ -33,26 +47,27 @@ body{
 
 .container {
     width: 90%;
-    max-width: 1400px;
+    max-width: 1800px;
     margin: auto;
 }
-
 i{
     padding: 0.5rem;
-    float: none;
+    text-align: center;
 }
 
 .site_footer {
     background-color: black;
     color: white;
     position: fixed;
-    margin: 0;
-    box-sizing: border-box;
+    height: 80px;
+    justify-content: space-between;
+    width: 100%;
+
 }
 
 .container_ooter{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .col{
@@ -63,14 +78,37 @@ i{
 
 .side_right{
     display: flex;
-    
+    flex-grow: 1;
+    gap: 1rem;
 }
 
 .d-flex{
     display: flex;
+    flex-grow: 1;
 }
 
+.btn{
+    color: red;
+    text-align: center;
+    height: 100%;
+    padding: 1.5rem;
+}
 
+.middle{
+    flex-grow: 3;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.left{
+    justify-content: end;
+    align-items: center;
+
+}
+
+:hover.btn{
+    background-color: gray;
+}
 /*
 
 
