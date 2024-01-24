@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: grey;
+header{
+    position: fixed;
+}
+
+body{
+    height: 100vh;
 }
 
 .row {
@@ -19,7 +23,7 @@ body {
 }
 
 .client {
-    background-color: rgba(169, 169, 169, 0.4);
+    background-color: rgba(169, 169, 169, 0.7);
     position: absolute;
     bottom: 4px;
     font-size: 8px;
@@ -29,19 +33,49 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
 i{
     padding: 0.5rem;
+    float: none;
 }
 
-.side_ooter{
+.site_footer {
     background-color: black;
+    color: white;
+    position: fixed;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .container_ooter{
     display: flex;
     justify-content: space-between;
 }
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.side_right{
+    display: flex;
+    
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+/*
+
+
+
+
+
+
+*/
